@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+body {
+  background-color: #b7b7b7;
+  color: #1d1d1d;
+  background-image: url( "https://cdn2.vectorstock.com/i/1000x1000/64/36/hobbies-and-interest-flat-set-vector-34516436.jpg" );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#title {
+  color: green;
+}
+
+h1 {
+  color: #c70d11;
+}
+
+h1 {
+  color: rgb(0, 17, 126);
+}
+
+/* Especificidad */
+
+/* 
+
+1. por estilos en linea.
+2. por Ids
+3. por classes
+4. por etiquetas
+5. a traves de atributos especiales
+
+*/
+
+
+#title-students {
+  color: brown;
+}
+
+#title-places {
+  color: rgb(1, 23, 78);
+}
+
+#title-hobbies {
+  color: rgb(1, 105, 27);
+}
+
+
+#students li {
+  color: rgb(255, 33, 33);
+}
+
+#places > ul > li {
+  color: rgb(0, 11, 212);
+}
+
+#hobbies ul li {
+  color: rgb(0, 167, 69);
+}
+
+#students, #places, #hobbies {
+  background-color: #504344;
+
+  /* border-style: solid; */
+  /* border-width: 10px; */
+  /* border-color: blueviolet; */
+
+  border: solid 10px blueviolet;
+  border-radius: 10px;
+
+  /* margin-top: 100px; */
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+
+  /* margin: 10px 20px 5px 17px; */
+  margin: 100px;
+
+  padding-left: 20px;
+}
+
+#title {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family: "Bungee Spice", sans-serif; */
+  text-shadow: 2px 2px 5px black;
+
+}
